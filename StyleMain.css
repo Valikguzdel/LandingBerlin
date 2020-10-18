@@ -1,0 +1,310 @@
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+}
+
+.Block1Background{
+    display: flex;
+    justify-content: center;
+    width: 1601px;
+    height: 535px;
+    background: url(image.png), linear-gradient(315.06deg, #152649 5%, #4F525C 100%);
+    mix-blend-mode: normal;
+}
+
+.BlockContent{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+}
+
+.ImageLogo{
+    width: 96px;
+    height: 23px;
+}
+
+.Group{
+    width: 255px;
+    height: 24px;
+    word-spacing: 40px;
+}
+
+.DemosPagesSupport {
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: #DBE4F1;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 585px;
+    height: 260px;
+}
+
+.ManageTeam{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 68px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Create{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    padding: 0px 0px 15px 0px;
+    color: #DBE4F1;
+}
+
+.Btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 227px;
+    border-radius: 3px;
+    background: #50E3C2;
+}
+
+.BtnText{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0F3D33;
+}
+
+.NoCreditCard{
+    width: 100%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: #DBE4F1;
+}
+
+.Feature1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1601px;
+    height: 435px;
+}
+
+.Feature1Block{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 300px;
+    padding: 0px 30px;
+}
+
+.ColorDot1{
+    background: #FC5C65;
+}
+.ColorDot2{
+    background: #50E3C2;
+}
+.ColorDot3{
+    background: #A665FB;
+;
+}
+
+.Dot{
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+.DotBig{
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: normal;
+    border-radius: 25px;
+    opacity: 0.06;
+}
+
+.DotSmall{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+}
+
+.BlockHeader{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    padding: 25px 0px;
+    width: 100%;
+    color: #000000;
+}
+
+.BlockText{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    color: #323232;
+}
+
+.Content1{
+    display: flex;
+    justify-content: center;
+    width: 1601px;
+    height: 704px;
+}
+.Content1Background1{
+    background: #F8FBFE;
+}
+
+.BlockContent2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 1100px;
+}
+
+.Content1Label{
+    display: flex;
+    flex-wrap: wrap;
+    width: 436px;
+}
+
+.Content1LabelHeader{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 50px;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+
+.Content1LabelText{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    padding: 27px 0px;
+}
+
+.Content1Image{
+    width: 487px;
+    height: 464px;
+    position: relative;
+}
+
+.Content1Image1{
+    width: 269px;
+    height: 356px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.103346);
+    border-radius: 5px;
+    background: url(Bitmap.png);
+}
+
+.Content1Image2{
+    position: absolute;
+    top: 106px;
+    left: 136px;
+    background: url(Analitics.png);
+    width: 336px;
+    height: 355px;
+    box-shadow: 0px 22px 54px rgba(67, 87, 138, 0.29);
+    border-radius: 5px;
+}
+
+
+.LabelOrder{
+    order:-1;
+}
+
+.Content2Image{
+    width: 549px;
+    height: 409px;
+    position: relative;
+}
+
+.Content2Image1{
+    position: absolute;
+    z-index: 10;
+    width: 365px;
+    height: 487px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.103346);
+    border-radius: 5px;
+    background: url(Activity.png);
+}
+
+.Content2Image2{
+    z-index: 1;
+    position: absolute;
+    top: 65px;
+    left: 224px;
+    background: url(54.png);
+    width: 320px;
+    height: 297px;
+    box-shadow: 0px 22px 54px rgba(67, 87, 138, 0.29);
+    border-radius: 5px;
+}
+
+.Content1Background2{
+    background: #FFFFFF;
+}
+
+.BlockVideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1601px;
+    height: 525px;
+}
+.video{
+    z-index: 1;
+}
+.BtnBig{
+    z-index: -1;
+    width: 50px;
+    height: 50px;
+    mix-blend-mode: normal;
+    border-radius: 25px;
+    background: #8FBC8F;
+}
